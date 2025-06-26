@@ -9,6 +9,10 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -48,4 +52,33 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
+}
+
+
+.content {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  align-items: flex-end;
+  width: 1140px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__list-container {
+  height: 298px;
+  overflow: scroll;
+}
+
+.content__details {
+  width: 399px;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 26px;
 }
